@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Biblioteca, Autor, Libro, Cliente, DatosCliente
+from .models import *
 # Register your models here.
 
 admin.site.register(Biblioteca)
