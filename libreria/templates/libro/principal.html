@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+    {% load static %}
+    <head>
+        <meta charset="utf-8">
+        <title>Principal-Librería</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+    </head>
+    <body>
+       <h1>Bienvenido a la Librería</h1>
+       {% block contenido %}
+            <h2>ESTA ES LA PAGINA PRINCIPAL</h2>
+       {% endblock %}
+       <img src="{% static 'imagenes/images.jpeg' %}" alt="Libros">
+    </body>
+</html>
